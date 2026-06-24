@@ -103,9 +103,20 @@ credit-portfolio-risk-default-detection/
 ├── README.md
 ├── credit_card_customer_risk_segmentation.ipynb
 ├── credit_card_risk_dashboard.pbix
-└── data/
-    └── cc_general_raw.csv
-```
+├── data/
+│   └── cc_general_raw.csv
+└── screenshots/
+    ├── eda_01_purchases_distribution.png
+    ├── eda_02_cash_advance_distribution.png
+    ├── eda_03_payments_distribution.png
+    ├── eda_04_balance_distribution.png
+    ├── eda_05_purchase_frequency_distribution.png
+    ├── seg_01_segmentation_column_chart.png
+    ├── risk_01_watchlist_by_segment.png
+    ├── powerbi_01_portfolio_overview.png
+    ├── powerbi_02_watchlist_risk_flags.png
+    ├── powerbi_03_segment_profiles.png
+    └── powerbi_04_customer_lookup.png
 
 ---
 
