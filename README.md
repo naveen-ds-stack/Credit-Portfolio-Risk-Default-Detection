@@ -21,6 +21,10 @@ A bank's credit card portfolio contains customers at varying levels of financial
 | Cash advance users | 48.6% use cash advances, median = 0 (concentrated risk) |
 | Purchases mean vs median | Mean (1,008) is 3x median (365) — small group drives all spend |
 
+> **Note:** All monetary values are in Indian Rupees (₹). 
+> The dataset does not specify currency; ₹ has been assumed 
+> for analytical context.
+
 **Critical insight:** The RFM segmentation (behavioural) and risk flagging (financial health) independently arrive at the same conclusion using completely different logic. Lost segment customers are not just low-engagement — they are the portfolio's primary concentration of default risk. This cross-validation strengthens confidence in both approaches.
 
 ---
@@ -118,6 +122,7 @@ credit-portfolio-risk-default-detection/
     ├── powerbi_03_segment_profiles.png
     └── powerbi_04_customer_lookup.png
 
+````
 ---
 
 ## How to Run
@@ -126,3 +131,11 @@ credit-portfolio-risk-default-detection/
 2. Place `cc_general_raw.csv` in the `data/` folder
 3. Run all cells in sequence: cleaning → EDA → feature engineering → RFM → risk flagging
 4. Open `credit_card_risk_dashboard.pbix` in Power BI Desktop for the interactive dashboard
+
+## Business Context
+
+This analysis is designed to support credit risk teams in prioritising 
+collections outreach and credit limit adjustments before accounts 
+deteriorate further. The segmentation and risk flagging framework is 
+intentionally explainable — every flag and segment can be communicated 
+to a credit risk manager or compliance team without technical jargon.
