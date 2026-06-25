@@ -131,7 +131,8 @@ credit-portfolio-risk-default-detection/
 2. Place `cc_general_raw.csv` in the `data/` folder
 3. Run all cells in sequence: cleaning → EDA → feature engineering → RFM → risk flagging
 4. Open `credit_card_risk_dashboard.pbix` in Power BI Desktop for the interactive dashboard
-
+   
+---
 ## Business Context
 
 This analysis is designed to support credit risk teams in prioritising 
