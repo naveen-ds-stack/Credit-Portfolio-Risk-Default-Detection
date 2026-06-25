@@ -107,7 +107,7 @@ credit-portfolio-risk-default-detection/
 ├── README.md
 ├── credit_card_customer_risk_segmentation.ipynb
 ├── credit_card_risk_dashboard.pbix
-├── data/
+├── dataset/
 │   └── cc_general_raw.csv
 └── screenshots/
     ├── eda_01_purchases_distribution.png
