@@ -1,4 +1,4 @@
-# Credit Portfolio Risk & Default Detection
+# Credit Portfolio Risk Assessment
 
 10.8% of 8,876 credit card customers are on a watch list carrying ₹2.8M in outstanding balance. This project identifies who they are, why they are high risk, and what the bank should do about each segment — using RFM segmentation and explainable rule-based risk flagging built in Python.
 
@@ -6,8 +6,7 @@
 
 ## Business Problem
 
-A bank's credit card portfolio contains customers at varying levels of financial stress. Raw transaction data alone cannot separate a high-balance customer who pays reliably from one who is silently heading toward default. This project builds a two-layer risk detection system: behavioural segmentation (RFM) and financial health flagging (rule-based) to surface the highest-risk customers before accounts deteriorate further.
-
+A credit card issuer needs to identify customers showing early signs of financial stress before they become high-risk accounts. However, transaction data alone cannot clearly distinguish between responsible customers and those whose spending and repayment behaviour indicate increasing credit risk. This project combines RFM-based customer segmentation with explainable rule-based financial risk indicators to identify high-risk customers and support proactive credit risk management.
 ---
 
 ## Key Findings
